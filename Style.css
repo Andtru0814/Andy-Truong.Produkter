@@ -1,0 +1,108 @@
+/*Om jag minns rätt skulle stjärnan så för att allt ska få dessa egenskaper*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*Allt inom body taggen ska ha font sizen outfit och sans-serif ifall om outfit inte finns*/
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+/*Alla items i cotainer ska vara i mitten*/
+.container {
+    display: flex;
+    background-color: #D3D3D3;
+    justify-content: center;
+  }
+
+  /*Design på headern*/
+.container
+  .item
+  a {
+    align-items: center;
+    display: flex;
+    height: 8vh;
+    width: 20vh;
+    justify-content: center;
+    text-decoration: none!important;
+    font-size: 5vh;
+    color: black;
+    text-decoration: none;
+  }
+
+  /*Musen över blir det grå länken*/
+.container 
+  .item
+  a:hover {
+    color:gray;
+  }
+  
+  /*Mellanrum mellan alla items*/
+  .item + .item {
+    margin-left: 2%;
+}
+
+/*Design på den store titeln på varje webb*/
+.Title {
+    display: flex; 
+    font-size: 5vh;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Design på produkterna på både Hem och Produkt sidan*/
+.produkter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10vh;
+}
+
+/*Design på itemsen i produkter taggen*/
+.produkt {
+  margin: 4vh;
+}
+
+/*Till texten under produkter*/
+.description {
+  font-size: 3vh;
+  text-align: center;
+}
+
+/*Design på footern i webbsidan*/
+footer {
+  display: flex;
+  margin-top: 30vh;
+  background-color: #D3D3D3;
+  justify-content: center;
+  width: 100%;
+  position:fixed;
+  bottom: 0px;
+
+}
+/*Återigen design på footern*/
+.item1 {
+  display: flex;
+  height: 8vh;
+  width: 20vh;
+  justify-content: center;
+
+  font-size: 1vh;
+  flex-direction: column;
+}
+/*Återigen design på footern*/
+
+.item1 + .item1 {
+  margin-left: 2%;
+}
+
+/*Centrering till loggorna i om oss och i kontakt*/
+.logo {
+  display: flex;
+ justify-content: center;
+}
+
